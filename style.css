@@ -1,17 +1,82 @@
-.main-fixed {
-  width: 500px;
-  min-height: 500px;
-  background-color: darkgray;
-  text-align: center;
-  padding: 20px;
-  margin: 50px auto;
-  position: relative;
-  display: flex;
-  flex-direction: column;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-h2 {
-  background-color: darkorange;
-  padding: 10px;
-  position: sticky;
-  top: 0;
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(71, 216, 71);
+  margin-bottom: 50px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexible {
+  display: flex;
+}
+.text-part {
+  width: 60%;
+}
+.text-part-heading {
+  font-weight: bold;
+}
+.text-part-para {
+  text-align: justify;
+}
+.img-part {
+  width: 40%;
+  padding-left: 30px;
+}
+.img-part img {
+  width: 80%;
+}
+.button {
+  padding: 13px 50px;
+  background-image: linear-gradient(
+    to right top,
+    #d63921,
+    #bb5b00,
+    #967300,
+    #688300,
+    #208e09
+  );
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+}
+.division-header {
+  text-align: center;
+  font-weight: bold;
+}
+.division-card {
+  width: 25%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.division-card img {
+  width: 100%;
+}
+.division-text {
+  padding: 30px 10px;
+}
+.division-text-heading {
+  text-align: center;
+}
+.button-area {
+  display: flex;
+  justify-content: center;
+}
+.button-area button {
+  padding: 10px 30px;
+  background-color: turquoise;
+  border: 0;
+  border-radius: 5px;
+}
+.division-groud {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
