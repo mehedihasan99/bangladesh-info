@@ -1,0 +1,17 @@
+.main-fixed {
+  width: 500px;
+  min-height: 500px;
+  background-color: darkgray;
+  text-align: center;
+  padding: 20px;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  background-color: darkorange;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
