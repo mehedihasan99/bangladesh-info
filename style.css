@@ -7,12 +7,14 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   color: rgb(71, 216, 71);
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 .container {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
+
 .flexible {
   display: flex;
 }
@@ -21,6 +23,7 @@ header h1 {
 }
 .text-part-heading {
   font-weight: bold;
+  font-size: 30px;
 }
 .text-part-para {
   text-align: justify;
@@ -50,6 +53,7 @@ header h1 {
 .division-header {
   text-align: center;
   font-weight: bold;
+  font-size: 30px;
 }
 .division-card {
   width: 25%;
@@ -64,6 +68,9 @@ header h1 {
 .division-text-heading {
   text-align: center;
 }
+.division-text-para {
+  color: gray;
+}
 .button-area {
   display: flex;
   justify-content: center;
@@ -77,6 +84,11 @@ header h1 {
 .division-groud {
   display: flex;
   margin-top: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+footer p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(110, 108, 108);
 }
